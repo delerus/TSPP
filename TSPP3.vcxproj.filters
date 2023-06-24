@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{e4f0c849-d2fa-404b-a7e4-1fcad9b61c91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Insurance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientDB.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="InsuranceDB.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="InsuranceCompany.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InsuranceQueue.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Insurance.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientDB.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="InsuranceDB.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="InsuranceCase.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsuranceCase.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsuranceAgent.h">
+      <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsuranceAgent.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InsuranceCompany.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientQueue.h">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientQueue.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="InsuranceQueue.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

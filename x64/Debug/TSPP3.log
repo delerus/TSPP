@@ -1,0 +1,9 @@
+﻿  ClientDB.cpp
+  Source.cpp
+  Generating Code...
+x64\Debug\ClientQueue.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\InsuranceAgent.obj : warning LNK4042: object specified more than once; extras ignored
+x64\Debug\InsuranceCase.obj : warning LNK4042: object specified more than once; extras ignored
+Client.obj : error LNK2019: unresolved external symbol "public: void __cdecl ClientQueue::addClient(class Client *)" (?addClient@ClientQueue@@QEAAXPEAVClient@@@Z) referenced in function "public: void __cdecl Client::initClientRegistr(class ClientQueue &)" (?initClientRegistr@Client@@QEAAXAEAVClientQueue@@@Z)
+Source.obj : error LNK2019: unresolved external symbol "public: __cdecl ClientQueue::ClientQueue(class InsuranceAgent *,class ClientDB *)" (??0ClientQueue@@QEAA@PEAVInsuranceAgent@@PEAVClientDB@@@Z) referenced in function main
+C:\Users\123\source\repos\TSPP3\x64\Debug\TSPP3.exe : fatal error LNK1120: 2 unresolved externals
